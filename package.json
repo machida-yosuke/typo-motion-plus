@@ -10,11 +10,12 @@
     "lint:check": "biome lint",
     "format:check": "biome format",
     "lint:fix": "biome format --write && biome lint --apply"
-  
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.0.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.7"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
