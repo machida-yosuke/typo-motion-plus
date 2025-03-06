@@ -35,6 +35,9 @@ resource "cloudflare_pages_project" "example" {
       owner             = var.github_username
       repo_name         = var.repo_name
       production_branch = "main"
+      deployments_enabled = true
+      preview_deployment_setting = "custom"
+      preview_branch_includes = ["feature/*", "hotfix/*"]
     }
   }
 }
