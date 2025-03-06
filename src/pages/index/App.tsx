@@ -12,14 +12,7 @@ export const App = () => {
   ];
 
   const gridCards = [
-    { title: "service-1", description: "基本的なサービス内容についての説明です。" },
-    // { title: "service-2", description: "さまざまな機能や特徴を詳しく解説します。" },
-    // { title: "service-3", description: "独自の技術やノウハウについての紹介です。" },
-    // { title: "service-4", description: "お客様のニーズに応じた柔軟な対応について。" },
-    // { title: "service-5", description: "安心のサポート体制とアフターケアの詳細。" },
-    // { title: "service-6", description: "料金プランや支払い方法についての案内。" },
-    // { title: "service-7", description: "よくある質問とその回答をまとめています。" },
-    // { title: "service-8", description: "導入事例や成功事例のご紹介です。" },
+    { title: "service-1", description: "基本的なサービス内容についての説明です。", type: "card1" },
   ];
 
   return (

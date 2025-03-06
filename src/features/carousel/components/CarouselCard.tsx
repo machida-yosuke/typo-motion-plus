@@ -1,12 +1,12 @@
 import type { FC } from 'react';
-import styles from './Card.module.css';
+import styles from './CarouselCard.module.css';
 
-export interface CardProps {
+export interface CarouselCardProps {
   title: string;
   description: string;
 }
 
-export const Card: FC<CardProps> = ({ title, description }) => {
+export const CarouselCard: FC<CarouselCardProps> = ({ title, description }) => {
   return (
     <div className={styles.card}>
       <h2 className={styles.title}>{title}</h2>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .card {
-  @apply bg-white rounded-lg shadow-md p-6 mx-2 h-full min-h-[200px] flex flex-col justify-center;
+  @apply bg-white rounded-lg shadow-md p-6 h-full min-h-[200px] flex flex-col justify-center;
 }
 
 .title {

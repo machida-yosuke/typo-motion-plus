@@ -2,11 +2,11 @@ import type { FC } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Card } from "@/components/ui/Card";
-import type { CardProps } from "@/components/ui/Card";
+import { CarouselCard } from './CarouselCard';
+import type { CarouselCardProps } from './CarouselCard';
 
 interface CarouselProps {
-  cards: Array<CardProps>;
+  cards: Array<CarouselCardProps>;
 }
 
 export const Carousel: FC<CarouselProps> = ({ cards }) => {
@@ -40,7 +40,7 @@ export const Carousel: FC<CarouselProps> = ({ cards }) => {
       <Slider {...settings}>
         {cards.map((card) => (
           <div key={card.title} className="px-2">
-            <Card {...card} />
+            <CarouselCard {...card} />
           </div>
         ))}
       </Slider>
