@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @theme {
   --color-*: initial;
   --color-shark-50: #f6f6f6;

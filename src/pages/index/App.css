@@ -1,0 +1,55 @@
+.slick-slider {
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center;
+}
+
+.slick-slide {
+  height: auto;
+  padding: 20px 0;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+/* ナビゲーション矢印のスタイル */
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px;
+  opacity: 0.75;
+}
+
+/* ドットナビゲーションのスタイル */
+.slick-dots {
+  bottom: -40px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+}
